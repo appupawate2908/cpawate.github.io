@@ -36,6 +36,12 @@ h1 {
   font-weight: 600;
   margin-bottom: 8px;
 }
+.fullname {
+  font-size: 14px;
+  color: #666;
+  margin-top: 4px;
+  margin-bottom: 20px;
+}
 
 .role {
   font-size: 18px;
