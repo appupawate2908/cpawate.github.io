@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Santosh Pawate | AI & Human Factors Engineer</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main class="page">
+    <section class="card">
+      <h1>Santosh Pawate</h1>
+
+      <p class="role">AI & Human Factors Engineer</p>
+
+      <p class="tagline">
+        I design intelligent systems that work with people —
+        not against them.
+      </p>
+
+      <p class="education">
+        Master’s in Artificial Intelligence & Human Factors<br>
+        Coventry University · Graduating May 2026
+      </p>
+
+      <div class="buttons">
+        <a href="projects.html" class="primary">View Projects</a>
+        <a href="resume.pdf" class="secondary">Download Resume</a>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
