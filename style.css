@@ -1,39 +1,86 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Santosh Pawate | AI & Human Factors Engineer</title>
+/* RESET */
+* {
+  box-sizing: border-box;
+}
 
-  <!-- Google Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+/* BODY */
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: #f8f9fa; /* Google soft canvas */
+  color: #111;
+}
 
-  <!-- External CSS -->
-  <link rel="stylesheet" href="style.css">
-</head>
+/* PAGE CENTERING */
+.page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
 
-<body>
-  <main class="page">
-    <section class="card">
-      <h1>Santosh Pawate</h1>
+/* MAIN CARD */
+.card {
+  background: #ffffff;
+  max-width: 960px;
+  width: 100%;
+  padding: 72px;
+  border-radius: 20px;
+  box-shadow: 0 24px 48px rgba(0, 0, 0, 0.06);
+}
 
-      <p class="role">AI & Human Factors Engineer</p>
+/* TEXT */
+h1 {
+  font-size: 46px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
 
-      <p class="tagline">
-        I design intelligent systems that work with people —
-        not against them.
-      </p>
+.role {
+  font-size: 18px;
+  font-weight: 500;
+  color: #1a73e8;
+  margin-bottom: 28px;
+}
 
-      <p class="education">
-        Master’s in Artificial Intelligence & Human Factors<br>
-        Coventry University · Graduating May 2026
-      </p>
+.tagline {
+  font-size: 22px;
+  line-height: 1.6;
+  margin-bottom: 28px;
+}
 
-      <div class="buttons">
-        <a href="projects.html" class="primary">View Projects</a>
-        <a href="resume.pdf" class="secondary">Download Resume</a>
-      </div>
-    </section>
-  </main>
-</body>
-</html>
+.education {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 48px;
+}
+
+/* BUTTONS */
+.buttons a {
+  display: inline-block;
+  padding: 14px 26px;
+  border-radius: 10px;
+  font-weight: 500;
+  text-decoration: none;
+  margin-right: 14px;
+  transition: all 0.2s ease;
+}
+
+.buttons .primary {
+  background: #1a73e8;
+  color: #ffffff;
+}
+
+.buttons .primary:hover {
+  background: #1558c0;
+}
+
+.buttons .secondary {
+  border: 1px solid #dadce0;
+  color: #1a73e8;
+}
+
+.buttons .secondary:hover {
+  background: #f1f3f4;
+}
